@@ -1,0 +1,31 @@
+Listing Basic
+ [x] Listing basic must have data
+ [x] Data must have valid id
+ [x] Data must have valid title
+ [x] Can be created with id and title
+ [x] Get status returns basic
+ [x] Get id returns valid id
+ [x] Get title returns valid title
+ [x] Get website returns valid website
+ [x] Get email returns valid email
+ [x] Get twitter returns valid twitter
+ [x] To array returns valid array
+ [x] Empty website returns null
+ [x] Set website adds http
+ [x] Empty status returns basic
+ [x] Set status returns valid status
+
+Listing Featured
+ [x] Get status returns featured
+ [x] Get coc returns valid coc
+
+Listing Image
+ [x] No image
+ [x] Full path image
+ [x] Build path image
+
+Listing Premium
+ [x] Get status returns premium
+ [x] Get description returns valid description
+ [x] Display allowed tags returns valid tags
+

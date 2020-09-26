@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="ListingBasicTest">Listing Basic</h2>
+        <ul>
+            <li style="color: #555753;">✓ Listing basic must have data</li>
+            <li style="color: #555753;">✓ Data must have valid id</li>
+            <li style="color: #555753;">✓ Data must have valid title</li>
+            <li style="color: #555753;">✓ Can be created with id and title</li>
+            <li style="color: #555753;">✓ Get status returns basic</li>
+            <li style="color: #555753;">✓ Get id returns valid id</li>
+            <li style="color: #555753;">✓ Get title returns valid title</li>
+            <li style="color: #555753;">✓ Get website returns valid website</li>
+            <li style="color: #555753;">✓ Get email returns valid email</li>
+            <li style="color: #555753;">✓ Get twitter returns valid twitter</li>
+            <li style="color: #555753;">✓ To array returns valid array</li>
+            <li style="color: #555753;">✓ Empty website returns null</li>
+            <li style="color: #555753;">✓ Set website adds http</li>
+            <li style="color: #555753;">✓ Empty status returns basic</li>
+            <li style="color: #555753;">✓ Set status returns valid status</li>
+        </ul>
+        <h2 id="ListingFeaturedTest">Listing Featured</h2>
+        <ul>
+            <li style="color: #555753;">✓ Get status returns featured</li>
+            <li style="color: #555753;">✓ Get coc returns valid coc</li>
+        </ul>
+        <h2 id="ListingImageTest">Listing Image</h2>
+        <ul>
+            <li style="color: #555753;">✓ No image</li>
+            <li style="color: #555753;">✓ Full path image</li>
+            <li style="color: #555753;">✓ Build path image</li>
+        </ul>
+        <h2 id="ListingPremiumTest">Listing Premium</h2>
+        <ul>
+            <li style="color: #555753;">✓ Get status returns premium</li>
+            <li style="color: #555753;">✓ Get description returns valid description</li>
+            <li style="color: #555753;">✓ Display allowed tags returns valid tags</li>
+        </ul>
+    </body>
+</html>
