@@ -1,0 +1,75 @@
+/* Random Quote Generator Styles */
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #0000FF;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #FFFF00;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: #FFFF00;
+}
+
+#quiz-box {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  line-height: .5;
+  color: #FFFF00;
+  text-align: center;
+}
+
+.breadcrumbs {
+  font-size: 2rem;
+}
+
+.correct {
+  color: #00FF00;
+  font-size: 2rem;
+}
+
+.incorrect {
+  color: #FF0000;
+  font-size: 2rem;
+}
+
+.quiz {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.1;
+  position: relative;
+  margin: 0;
+}
+
+.btn {
+  width: 12em;
+  display: inline-block;
+  bottom: 150px;
+  border-radius: 4px;
+  border: 2px solid #000;
+  color: #FFF;
+  background-color: #000;
+  padding: 15px;
+  margin: 10px;
+  transition: .5s ;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.btn:focus {
+  outline: none;
+}
